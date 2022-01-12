@@ -1,0 +1,52 @@
+/* formata o título da aplicação (h1) */
+.titulo {
+  color: #ffff00;
+  background-color: #009879;
+  text-align: center;
+  margin: 11px;
+}
+
+/* define algumas formatações da tabela como: ângulo dos cantos,
+largura mínima, tamanho da fonte, alinhamento esquerdo e direiro */
+.format-tabela {
+  border-collapse: collapse;
+  position: absolute;
+  top: 8%;
+  left: 1.8%;
+  right: 1.6%;
+  margin: 18px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* define o destaque o cabeçalho da tabela */
+.format-tabela thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* define a altura (preencimento) das linhas */
+.format-tabela th,
+.format-tabela td {
+  padding: 5px 2px;
+}
+
+/* define a borda e a cor da linha */
+.format-tabela tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/*epecifica uma cor de fundo para o segundo elemento */
+.format-tabela tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* coloca uma linha verde (#009879) no final da tabela */
+.format-tabela tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
